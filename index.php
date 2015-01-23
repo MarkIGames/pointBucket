@@ -2,24 +2,24 @@
 
 	$id = 1;
 
-	$array = array(
-		'1' => array( 
+	$array[] = array(
 			'name'     => 'Mark',
 			'fullName' => 'Mark Williams',
 			'points'   => '2187'
-		),
-		'2' => array(
+		);
+    $array[] = array(
 			'name'   => 'Bill',
 			'fullName'   => 'Bill Ortell',
 			'points' => '1138'		
-		),
-		'3' => array(
+		);
+    $array[] = array(
 			'name'     => 'Ken',
 			'fullName' => 'Ken Raisor',
 			'points'   => '94'		
-		),
-	);
+		);
 
+    /** correction multiplier :) */
+    $array[1]['points'] = $array[0]['points'] * 10;
 ?>
 
 <html>
