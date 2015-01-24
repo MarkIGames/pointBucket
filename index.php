@@ -19,7 +19,7 @@
 		);
 
     /** correction multiplier :) */
-    $array[1]['points'] = $array[0]['points'] * 10;
+    $array[1]['points'] = $array[0]['points'] * -10;
 ?>
 
 <html>
